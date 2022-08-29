@@ -1,0 +1,22 @@
+GET 	localhost:8080/brands
+GET 	localhost:8080/brands/1
+GET 	localhost:8080/brands/1/drinks
+
+POST 	localhost:8080/brands (brand)
+POST 	localhost:8080/brands/1 (drink)
+-----------------------------------------------------------------------------------------
+GET 	localhost:8080/drinks
+GET 	localhost:8080/drinks/10001
+
+POST 	localhost:8080/drinks (drink)
+-----------------------------------------------------------------------------------------
+GET 	localhost:8080/clients
+GET 	localhost:8080/clients/70000002
+GET 	localhost:8080/clients/70000002/orders
+GET 	localhost:8080/clients/70000002/addresses
+-----------------------------------------------------------------------------------------
+GET 	localhost:8080/orders
+GET 	localhost:8080/orders/10502
+
+PATCH 	localhost:8080/orders/10502/change-status?status=AWAITING_PAYMENT (status)
+-----------------------------------------------------------------------------------------
