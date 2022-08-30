@@ -2,6 +2,12 @@
 Drink Warehouse is the project built with (and to learn) Spring's Hibernate support. Most of the features used
 in the project are related with Hibernate, but there is few of others.
 
+## Contents
+* [Classes](https://github.com/mWasyluk/spring-hibernate_drink-warehouse/tree/main/src/main/java/com/example/hibernatetest)
+* [Properties file](https://github.com/mWasyluk/spring-hibernate_drink-warehouse/blob/main/src/main/resources/application.properties)
+* [Static resources](https://github.com/mWasyluk/spring-hibernate_drink-warehouse/tree/main/src/main/resources/static)
+
+
 ## Getting started
 For a proper startup, the application needs a database to persist data related to the warehouse, such as drinks, brands, clients, orders, etc.
 The application uses PostgreSQL by default, but it can be changed anytime within the application.properties file to support other databases.
