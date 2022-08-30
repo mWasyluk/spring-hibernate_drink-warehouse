@@ -12,9 +12,9 @@ in the project are related with Hibernate, but there is few of others.
 For a proper startup, the application needs a database to persist data related to the warehouse, such as drinks, brands, clients, orders, etc.
 The application uses PostgreSQL by default, but it can be changed anytime within the application.properties file to support other databases.
 If the PostgreSQL database will be used to support persisting the application data, it can be run with Docker by the following command:
-<p style="background-color: #ddd; color: black; border-radius:3px; padding: 10px; word-break: break-all; font-family:'Consolas';">
+<br><code style="background-color: #ddd; color: black; border-radius:3px; padding: 10px; word-break: break-all; font-family:'Consolas';">
 run --name drink-warehouse-postgres -d -e POSTGRES_USER=drink_warehouse-database -e POSTGRES_PASSWORD=PoOOfn3@t@jjjn#../ -e POSTGRES_DB=drink-warehouse -p 5432:5432 postgres
-</p>
+</code></br>
 Above environment variables can be change if needed, but also application.properties file needs to be changed accordingly.
  
 
